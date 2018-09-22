@@ -3,6 +3,8 @@ cmake_minimum_required (VERSION 2.6.2)
 
 project (libWetCloth)
 set (LIBWETCLOTH_VERSION "2018")
+set (OpenGL_GL_PREFERENCE "GLVND")
+
 add_definitions (-DLIBWETCLOTH_VERSION="${LIBWETCLOTH_VERSION}")
 
 set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/install")
